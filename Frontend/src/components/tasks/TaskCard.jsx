@@ -7,7 +7,7 @@ export function TaskCard({
   assigneeName = '',
   draggable = false,
   showStatus = true,
-  onDragStart,
+  onDragStart, 
   onDragEnd,
   onClick,
 }) {
