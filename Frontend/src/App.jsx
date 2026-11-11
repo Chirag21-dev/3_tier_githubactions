@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { AppShell } from './components/layout/AppShell';
-#import { DashboardPage } from './Pages/DashboardPage';
-#import { ProjectPage } from './Pages/ProjectPage';
-#import { AIPage } from './Pages/AIPage';
+import { DashboardPage } from './Pages/DashboardPage';
+import { ProjectPage } from './Pages/ProjectPage';
+import { AIPage } from './Pages/AIPage';
 
 export default function App() {
   return (
