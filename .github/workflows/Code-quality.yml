@@ -9,7 +9,7 @@
 name: Code Quality
 
 on:
-    workflow_call:
+   workflow_call:
 
 jobs:
     sast:
