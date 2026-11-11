@@ -1,0 +1,26 @@
+name: DevSecOps
+
+on:
+  push:
+    branches: [mega-project]
+    paths:
+      - 'backend/**'
+      - 'Frontend/**'
+      - 'ai-service/**'
+      - '.github/workflows/**'
+      - 'sonar-project.properties'
+  pull_request:
+    branches: [mega-project]
+  workflow_dispatch:
+
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.t.outputs.tag }}
+    steps:
+      - id: t
+        run: echo "tag=sha-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+
+  code-quality:
+    uses: ./.github/workflows/code-quality.yml
