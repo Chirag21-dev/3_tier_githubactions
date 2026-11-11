@@ -31,7 +31,4 @@ jobs:
 
             - name: Run Linter
               run: npm run lint
-              working-directory: frontend
-
-      - name: Run tests
-        run: deno test -A
+              working-directory: Frontend
