@@ -23,4 +23,4 @@ jobs:
         run: echo "tag=sha-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
 
   code-quality:
-    uses: ./.github/workflows/code-quality.yml
+    uses: ./.github/workflows/Code-quality.yml
