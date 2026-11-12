@@ -33,3 +33,6 @@ jobs:
 
   code-test:
     uses: ./.github/workflows/code-test.yml
+
+  docker-build:
+    uses: ./.github/workflows/docker-build.yml
