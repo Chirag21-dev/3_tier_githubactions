@@ -28,5 +28,5 @@ jobs:
                 logout: true
 
             - name: Docker Build ${{ matrix.folders}}
-              run: docker build -t devboard-${{ matrix.folders }}:ci .
+              run: docker build -t devboard-frontend:ci .
               working-directory: ${{ matrix.folders}}
