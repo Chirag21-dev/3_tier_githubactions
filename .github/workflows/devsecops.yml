@@ -30,3 +30,6 @@ jobs:
 
   dependency-scan:
     uses: ./.github/workflows/dependency-scan.yml
+
+  code-test:
+    uses: ./.github/workflows/code-test.yml
