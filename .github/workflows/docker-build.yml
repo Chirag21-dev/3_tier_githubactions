@@ -24,7 +24,7 @@ jobs:
               with:
                 registry: dhi.io
                 username: ${{ vars.DOCKERHUB_USERNAME }}
-                password: ${{ secrets.DOCKERHUB_TOKEN }}
+                password: ${{ vars.DOCKERHUB_TOKEN }}
                 logout: true
 
             - name: Docker Build ${{ matrix.folders}}
