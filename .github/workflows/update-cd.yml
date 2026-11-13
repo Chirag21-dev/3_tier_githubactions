@@ -28,12 +28,12 @@ jobs:
       - name: Update deployment image
         run: |
           sed -i \
-            "s|image: chiragks1/devboard-frontend:.*|image: chiragks1/webapp:${{ inputs.image_tag }}|" \
+            "s|image: chiragks1/devboard-frontend:.*|image: chiragks1/devboard-frontend:${{ inputs.image_tag }}|" \
             manifests/deployment.yaml
 
       - name: Verify image update
         run: |
-          grep "image:" manifests/deployment.yaml
+          grep "image:" manifests/deployment.yml
 
       - name: Commit and push
         run: |
