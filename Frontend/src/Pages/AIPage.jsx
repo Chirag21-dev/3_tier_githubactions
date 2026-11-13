@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { AIChat } from '../components/ai/AIChat';
+#import { AIChat } from '../components/ai/AIChat';
 import { useProjects } from '../hooks/useTasks';
 
 // AI Assistant page. Lets you pick a project, then summarise it or ask questions
