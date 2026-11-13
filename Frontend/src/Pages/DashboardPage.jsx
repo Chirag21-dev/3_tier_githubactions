@@ -3,7 +3,7 @@ import {
   IconArrowRight, IconCircleCheck, IconAlertCircle, IconClock, IconCheck,
   IconActivity,
 } from '@tabler/icons-react';
-import { useProjects, useTasks } from '../hooks/useTasks';
+import { useProjects, useTasks } from '../hooks/useTask';
 import { Button } from '../components/ui/Button';
 import { StatusBadge } from '../components/ui/Badge';
 
