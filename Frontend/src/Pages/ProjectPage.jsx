@@ -4,7 +4,7 @@ import {
   IconPlus, IconDatabase, IconBolt,
   IconLayoutKanban, IconList,
 } from '@tabler/icons-react';
-import { useTasks } from '../hooks/useTasks';
+import { useTasks } from '../hooks/useTask';
 import { Button } from '../components/ui/Button';
 import { TaskList } from '../components/tasks/TaskList';
 import { TaskCreateModal } from '../components/tasks/TaskCreateModal';
