@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { IconSparkles, IconSend2, IconPlayerStop } from '@tabler/icons-react';
-import { Button } from '../ui/Button';
-import { Input } from '../ui/Input';
+import { Button } from '../components/ui/Button';
+import { Input } from '../components/ui/Input';
 import { StreamingText } from './StreamingText';
 import { useAIStream } from '../../hooks/useAIStream';
 
