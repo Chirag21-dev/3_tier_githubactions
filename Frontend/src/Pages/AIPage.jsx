@@ -1,6 +1,6 @@
 import { useState } from 'react';
  import { AIChat } from '../Pages/ai/AIChat';
-import { useProjects } from '../hooks/useTasks';
+import { useProjects } from '../hooks/useTask';
 
 // AI Assistant page. Lets you pick a project, then summarise it or ask questions
 // grounded in that project's tasks. Answers stream token-by-token from the
