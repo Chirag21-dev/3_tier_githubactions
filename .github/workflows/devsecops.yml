@@ -2,7 +2,7 @@ name: DevSecOps
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'backend/**'
       - 'Frontend/**'
