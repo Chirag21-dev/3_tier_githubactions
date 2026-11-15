@@ -5,7 +5,7 @@ import {
   IconSettings, IconChevronRight, IconFolder, IconSparkles,
 } from '@tabler/icons-react';
 import { Logo } from '../ui/Logo';
-import { useProjects } from '../../hooks/useTasks';
+import { useProjects } from '../../hooks/useTask';
 
 const NAV = [
   { to: '/',           label: 'Dashboard',    icon: IconLayoutDashboard },
