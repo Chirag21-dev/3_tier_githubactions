@@ -3,7 +3,7 @@ import { IconBell, IconChevronRight, IconCircleFilled } from '@tabler/icons-reac
 import { CommandBar } from './CommandBar';
 import { ProfileMenu } from './ProfileMenu';
 import { ThemeToggle } from './ThemeToggle';
-import { useProjects } from '../../hooks/useTasks';
+import { useProjects } from '../../hooks/useTask';
 
 /**
  * Three-zone topbar:
