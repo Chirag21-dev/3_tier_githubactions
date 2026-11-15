@@ -3,7 +3,7 @@ import { IconSparkles, IconSend2, IconPlayerStop } from '@tabler/icons-react';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { StreamingText } from './StreamingText';
-import { useAIStream } from '../../hooks/useAIStream';
+import { useAIStream } from '../../hooks/useAIstream';
 
 export function AIChat({ projectId }) {
   const [question, setQuestion] = useState('');
